@@ -1,5 +1,4 @@
 #include <cstdio>
-using namespace std;
 int main() {
 	int test,a,b;
 	scanf("%d",&test);
