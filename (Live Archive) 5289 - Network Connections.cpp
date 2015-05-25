@@ -21,7 +21,7 @@ int main() {
 			a = line[2] - '0';
 			b = line[4] - '0';
 			form = line[0];
-			if(line[0] == 'c') 
+			if(form == 'c') 
 				join(a,b);
 			else {
 				if(joined(a,b)) successful++;
