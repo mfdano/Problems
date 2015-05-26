@@ -54,7 +54,7 @@ int main() {
 	return 0;
 }
 void init(int n) {
-	for(int i=0;i<n;i++) root[i] = i;
+	for(int i=1;i<=n;i++) root[i] = i;
 }
 int find(int a) {
 	return (a == root[a]) ? a : root[a] = find(root[a]);
