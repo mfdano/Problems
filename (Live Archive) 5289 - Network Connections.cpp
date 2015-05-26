@@ -40,7 +40,6 @@ int main() {
 					r *= 10;
 				}
 			}
-			printf("%d %d\n",a,b);
 			if(form == 'c') 
 				join(a,b);
 			else {
