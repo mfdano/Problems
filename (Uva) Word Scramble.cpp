@@ -15,7 +15,7 @@ int main() {
 				word = "\0";
 			} else word += line[i];
 		}
-		for(int j=size;j>=0;j--) {
+		for(int j=size-1;j>=0;j--) {
 			if(line[j] == ' ') {
 				printf("\n");
 				break;
