@@ -30,7 +30,7 @@ int main() {
 	chars['P'] = 'O';
 	chars['R'] = 'E';
 	chars['S'] = 'A';
-	chars['T'] = 'T';
+	chars['T'] = 'R';
 	chars['U'] = 'Y';
 	chars['V'] = 'C';
 	chars['W'] = 'Q';
@@ -41,18 +41,15 @@ int main() {
 	chars['['] = 'P';
 	chars[']'] = '[';
 	chars[';'] = 'L';
-	//chars[s] = ';';
 	chars[','] = 'M';
 	chars['.'] = ',';
 	chars['/'] = '.';
-	//chars['\'] = ']';
-	//chars[' '] = ' ';
 	string line;
 	while(getline(cin,line)) {
 		for(int i=0;i<line.size();i++) {
 			if(line[i] == ' ') printf(" ");
 			if(line[i] == 92) printf("]");
-			if(line[i] == 213) printf(";");
+			if(line[i] == 39) printf(";");
 			printf("%c",chars[line[i]]);
 		}
 		printf("\n");
