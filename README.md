@@ -1,1 +1,1 @@
-# Uva-Solutions
+Solutions
