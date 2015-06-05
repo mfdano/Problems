@@ -16,32 +16,33 @@ int main() {
 		if(c == 0) printf("%lld\n",((x2 - x1) +1) * ((y2 - y1) + 1));
 		else printf("0\n");
 	}
-	if(a == 0) {
-		if(c % b == 0 && c / b <= y2 && c / b >= y1) printf("lld\n",(x2 - x1) + 1);
+	else if(a == 0) {
+		if(c % b == 0 && c / b <= y2 && c / b >= y1) printf("%lld\n",(x2 - x1) + 1);
 		else printf("0\n");
 	}
-	if(b == 0) {
+	else if(b == 0) {
 		if(c % a == 0 && c / a <= x2 && c / a >= x1) printf("%lld\n",(y2 - y1) + 1);
 		else printf("0\n");
+	} else {
+		extendedEuclid(a,b);
+		if(c % d == 0) {
+			xo = ((-1)*c*x) / d;
+			yo = ((-1)*c*y) / d;
+			lcm_ab = lcm(a,b);
+			nx1 = (((float)x1 - (float)xo) * (float)a) / (float)lcm_ab;
+			nx2 = (((float)x2 - (float)xo) * (float)a) / (float)lcm_ab;
+			ny1 = (((float)yo - (float)y1) * (float)b) / (float)lcm_ab;
+			ny2 = (((float)yo - (float)y2) * (float)b) / (float)lcm_ab;
+			if(nx1 > nx2) swap(nx1,nx2);
+			if(ny1 > ny2) swap(ny1,ny2);
+			x1 = (long long)ceil(nx1);
+			y1 = (long long)ceil(ny1);
+			x2 = (long long)floor(nx2);
+			y2 = (long long)floor(ny2);
+			if(min(x2,y2) < max(x1,y1)) printf("0\n");
+			else printf("%lld\n",min(x2,y2) - max(x1,y1) + 1);
+		} else printf("0\n");
 	}
-	extendedEuclid(a,b);
-	if(c % d == 0) {
-		xo = ((-1)*c*x) / d;
-		yo = ((-1)*c*y) / d;
-		lcm_ab = lcm(a,b);
-		nx1 = (((float)x1 - (float)xo) * (float)a) / (float)lcm_ab;
-		nx2 = (((float)x2 - (float)xo) * (float)a) / (float)lcm_ab;
-		ny1 = (((float)yo - (float)y1) * (float)b) / (float)lcm_ab;
-		ny2 = (((float)yo - (float)y2) * (float)b) / (float)lcm_ab;
-		if(nx1 > nx2) swap(nx1,nx2);
-		if(ny1 > ny2) swap(ny1,ny2);
-		x1 = (long long)ceil(nx1);
-		y1 = (long long)ceil(ny1);
-		x2 = (long long)floor(nx2);
-		y2 = (long long)floor(ny2);
-		if(min(x2,y2) < max(x1,y1)) printf("0\n");
-		else printf("%lld\n",min(x2,y2) - max(x1,y1) + 1);
-	} else printf("0\n");
 	return 0;
 }
 long long gcd(long long a,long long b) {
