@@ -1,13 +1,14 @@
 #include <cstdio>
 #include <algorithm>
 #include <cmath>
+typedef long long ll;
 using namespace std;
-long long gcd(long long,long long);
-void extendedEuclid(long long,long long);
-long long lcm(long long,long long);
-long long x,y,d;
+ll gcd(ll,ll);
+void extendedEuclid(ll,ll);
+ll lcm(ll,ll);
+ll x,y,d;
 int main() {
-    long long a,b,c,x1,x2,y1,y2,xo,yo,lcm_ab;
+    ll a,b,c,x1,x2,y1,y2,xo,yo,lcm_ab;
     double nx1,nx2,ny1,ny2;
     scanf("%lld %lld %lld",&a,&b,&c);
     scanf("%lld %lld",&x1,&x2);
@@ -35,27 +36,27 @@ int main() {
             ny2 = (((double)yo - (double)y2) * (double)b) / (double)lcm_ab;
             if(nx1 > nx2) swap(nx1,nx2);
             if(ny1 > ny2) swap(ny1,ny2);
-            x1 = (long long)ceil(nx1);
-            y1 = (long long)ceil(ny1);
-            x2 = (long long)floor(nx2);
-            y2 = (long long)floor(ny2);
+            x1 = (ll)ceil(nx1);
+            y1 = (ll)ceil(ny1);
+            x2 = (ll)floor(nx2);
+            y2 = (ll)floor(ny2);
             if(min(x2,y2) < max(x1,y1)) printf("0\n");
             else printf("%lld\n",min(x2,y2) - max(x1,y1) + 1);
         } else printf("0\n");
     }
     return 0;
 }
-long long gcd(long long a,long long b) {
+ll gcd(ll a,ll b) {
     if(b == 0) return a;
     return gcd(b,a%b);
 }
-void extendedEuclid(long long a,long long b) {
+void extendedEuclid(ll a,ll b) {
     if(b == 0) { x = 1 , y = 0 , d = a; return; }
     extendedEuclid(b,a%b);
-    long long x1 = y;
-    long long y1 = x - (a/b) * y;
+    ll x1 = y;
+    ll y1 = x - (a/b) * y;
     x = x1 , y = y1;
 }
-long long lcm(long long a,long long b) {
+ll lcm(ll a,ll b) {
     return (a / gcd(a,b)) * b;
 }
