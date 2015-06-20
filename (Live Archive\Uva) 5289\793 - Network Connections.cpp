@@ -55,7 +55,4 @@ int main() {
 void init(int n) { for(int i=1;i<=n;i++) root[i] = i; }
 int find(int a) { return (a == root[a]) ? a : root[a] = find(root[a]); }
 bool joined(int a,int b) { return find(a) == find(b); }
-void join(int a,int b) {
-	if(joined(a,b)) return;
-	root[find(a)] = find(b);
-}
+void join(int a,int b) { root[find(a)] = find(b); }
