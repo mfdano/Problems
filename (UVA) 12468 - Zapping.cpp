@@ -3,8 +3,7 @@
 using namespace std;
 int main() {
     cin.tie(0); ios_base::sync_with_stdio(0);
-    int circular_list[100];
-    int a,b,c;
+    int a,b;
     while(cin >> a >> b) {
         if(a == -1 && b == -1) break;
         if(a == b) cout << "0\n";
