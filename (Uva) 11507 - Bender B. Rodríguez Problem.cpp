@@ -26,7 +26,7 @@ int main() {
   			if(pointed[0] == direction[0]) pointed = "+y";
   			else pointed = "-y";
   		} else if((pointed[1] == 'x' && direction[1] == 'z') ||
-  				 			(pointed[1] == 'z' && direction[1] == 'x')) {
+  			  (pointed[1] == 'z' && direction[1] == 'x')) {
   			if(pointed[0] == direction[0]) pointed = "+z";
   			else pointed = "-z";
   		}
