@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int _max = 10005; 
+const int _max = 10010; 
 struct flights {
 	int start;
 	int end;
