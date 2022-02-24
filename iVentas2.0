@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T19:00:35.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sZbNgmY3jutF8T0vAiic" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T19:22:21.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mBk6Ki6kBdZcJjb-DqjR" version="16.6.3" type="github">
   <diagram id="K6US9pJKYgEXzlsxmy9T" name="Page-1">
-    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EdPcAwWnNduQAow6PKxi-2" value="Messages&lt;br&gt;ElasticSearch&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="710" y="330" width="100" height="140" as="geometry" />
+          <mxGeometry x="700" y="230" width="100" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-3" value="Message Broker&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="400" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="EdPcAwWnNduQAow6PKxi-3" value="Message Broker&lt;br&gt;RabbitMQ&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-4" value="Neo4j&lt;br&gt;SQL&lt;br&gt;Mongo&lt;br&gt;Other&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="640" y="60" width="120" height="140" as="geometry" />
+          <mxGeometry x="690" y="40" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-5" value="API GRAPH QL" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="410" y="90" width="80" height="80" as="geometry" />
+        <mxCell id="EdPcAwWnNduQAow6PKxi-5" value="API GRAPH QL, API" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-6" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
           <mxGeometry x="140" y="280" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-8" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="550" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="EdPcAwWnNduQAow6PKxi-8" value="Omnichannel&lt;br&gt;&lt;br&gt;Message Broker" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="710" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-3" target="EdPcAwWnNduQAow6PKxi-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -41,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-12" value="Caché&lt;br&gt;Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="410" y="590" width="60" height="80" as="geometry" />
+          <mxGeometry x="400" y="620" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-3" target="EdPcAwWnNduQAow6PKxi-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,13 +49,7 @@
             <mxPoint x="510" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-8" target="EdPcAwWnNduQAow6PKxi-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="570" as="sourcePoint" />
-            <mxPoint x="610" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-3" target="EdPcAwWnNduQAow6PKxi-8">
+        <mxCell id="EdPcAwWnNduQAow6PKxi-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-12" target="EdPcAwWnNduQAow6PKxi-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="390" as="sourcePoint" />
             <mxPoint x="510" y="340" as="targetPoint" />
@@ -63,6 +57,45 @@
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-16" value="WebSockets&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-17" value="&lt;b style=&quot;font-size: 13px&quot;&gt;1ER CASO, MANDAR MENSAJES DESDE DASHBOARD&lt;br&gt;&lt;br&gt;1. Se manda un mensaje desde dashboard&lt;br&gt;2. El mensaje llega al server por HTTP (Message Broker)&lt;br&gt;3. El mesaje se econla en el message broker&lt;br&gt;4. El mensaje de guarda en caché&lt;br&gt;5. El mensaje se manda al omnicanal para ser enviado al API Provider(360, ChatAPI, etc.)&lt;br&gt;6. El API Provider response&lt;br&gt;7.&amp;nbsp;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="160" width="420" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-3" target="EdPcAwWnNduQAow6PKxi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="770" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-5" target="EdPcAwWnNduQAow6PKxi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="470" as="sourcePoint" />
+            <mxPoint x="770" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-24" value="API Caché&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="150" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-6" target="EdPcAwWnNduQAow6PKxi-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1" source="EdPcAwWnNduQAow6PKxi-3" target="EdPcAwWnNduQAow6PKxi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-29" value="HTTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="275" y="200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-30" value="HTTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="140" y="520" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdPcAwWnNduQAow6PKxi-31" value="TCP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
