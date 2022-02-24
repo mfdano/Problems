@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T20:58:38.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="1_aZ3jzKz6aQiqKwGhip" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T21:03:16.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8G9RMT2jLG2Cml5LlxOf" version="16.6.3" type="github">
   <diagram id="K6US9pJKYgEXzlsxmy9T" name="Page-1">
     <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="560" y="490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-4" value="Neo4j&lt;br&gt;SQL&lt;br&gt;Mongo&lt;br&gt;Other&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="630" y="30" width="120" height="140" as="geometry" />
+          <mxGeometry x="730" y="30" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="EdPcAwWnNduQAow6PKxi-5" value="API GRAPH QL, API" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
           <mxGeometry x="370" y="120" width="80" height="80" as="geometry" />
@@ -100,7 +100,7 @@
         <mxCell id="EdPcAwWnNduQAow6PKxi-36" value="&lt;b style=&quot;font-size: 13px&quot;&gt;Objetivos&lt;br&gt;&lt;br&gt;1. Robustez, Seguridad&lt;br&gt;2. Facil de testear&lt;br&gt;3. Facil de escalar&lt;br&gt;4. CI, CD&lt;br&gt;5. Loggin strategy (Elastic Search, Sentry, DataDog)&lt;br&gt;6. Fast Development&lt;br&gt;7. Optimice latency at sending messages&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="380" width="420" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="EdPcAwWnNduQAow6PKxi-38" value="&lt;b style=&quot;font-size: 13px&quot;&gt;Frontend&lt;br&gt;&lt;br&gt;Flutter, Vue JS (Typescript)&lt;br&gt;&lt;br&gt;App&lt;br&gt;&lt;br&gt;Flutter&lt;br&gt;&lt;br&gt;Backend&lt;br&gt;Pusher, Message Broker, Redis, Elastic Search (logs), Neo4j, Apollo Federations, Serveless, nestjs&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EdPcAwWnNduQAow6PKxi-38" value="&lt;b style=&quot;font-size: 13px&quot;&gt;Frontend&lt;br&gt;&lt;br&gt;Flutter, Vue JS (Typescript)&lt;br&gt;&lt;br&gt;App&lt;br&gt;&lt;br&gt;Flutter&lt;br&gt;&lt;br&gt;Backend&lt;br&gt;Pusher, Message Broker, Redis, Elastic Search (logs), Neo4j, Apollo Federations, Serveless, nestjs, Firebase Auth for APIs and Users&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="650" width="420" height="340" as="geometry" />
         </mxCell>
       </root>
